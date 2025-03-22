@@ -11,3 +11,8 @@ vim /etc/pacman.conf
 "multilib"
 
 pacman -Syu
+
+vim /etc/default/grub
+#descomentar
+
+
