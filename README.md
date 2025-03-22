@@ -1,3 +1,5 @@
+POS INSTALL "ARCH LINUX"
+
 #su
 
 vim /etc/sudoers
