@@ -15,4 +15,4 @@ pacman -Syu
 vim /etc/default/grub
 #descomentar
 
-
+Espaço de Trabalho apenas na tela principal
