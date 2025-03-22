@@ -1,0 +1,1 @@
+# posinstall-archlinux
