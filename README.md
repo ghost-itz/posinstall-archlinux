@@ -15,4 +15,6 @@ pacman -Syu
 vim /etc/default/grub
 #descomentar
 
+grub-mkconfig -o /boot/grub/grub.cfg
+
 Espaço de Trabalho apenas na tela principal
