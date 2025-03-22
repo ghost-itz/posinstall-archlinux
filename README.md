@@ -13,7 +13,7 @@ vim /etc/pacman.conf
 pacman -Syu
 
 vim /etc/default/grub
-#descomentar
+#descomentar - "GRUB_DISABLE_OS_PROBER=false"
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
