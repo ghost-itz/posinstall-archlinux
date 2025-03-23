@@ -17,4 +17,6 @@ vim /etc/default/grub
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
+## 🚀 Instalação e execução
 
+    pacman -S
