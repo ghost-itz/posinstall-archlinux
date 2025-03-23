@@ -2,10 +2,10 @@ POS INSTALL "ARCH LINUX"
 
 #su
 
-vim /etc/sudoers
+nano /etc/sudoers
 "#user" 
 
-vim /etc/pacman.conf
+nano /etc/pacman.conf
 
 #descomentar#
 "multilib"
@@ -17,4 +17,4 @@ vim /etc/default/grub
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
-Espaço de Trabalho apenas na tela principal
+
