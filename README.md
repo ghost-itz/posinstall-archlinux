@@ -1,4 +1,4 @@
-POS INSTALL "ARCH LINUX"
+## 🚀 Pos Install ArchLinux
 
 #su
 
