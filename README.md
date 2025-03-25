@@ -1,40 +1,49 @@
 ## 🚀 Pos Install ArchLinux
 
-Entrar modo ROOT
+Enter ROOT mode
 
     su
 
+Next enter in SUDO file
+
     nano /etc/sudoers
+
+Find
 
 `root ALL=(ALL:ALL) ALL`
 
-Adicionar a linha abaixo, substituindo $USER pelo seu usuário
+Add the line below, under the line (ROOT), replacing $USER with your $USERNAME
 
 `$USER ALL=(ALL:ALL) ALL`
 
-Adicionar repositório Multilib, para jogos (steam, Lutris, Heroic Games)
+Enable repository Multilib, for gaming (steam, Lutris, Heroic Games)
     
     nano /etc/pacman.conf
 
-Descomentar (#) 
+Uncomment (#), staying this way
+
 `[multilib]`
 `Include = /etc/pacman.d/mirrorlist`
 
-Atualização completa do Sistema
+Now, update whole system
 
     pacman -Syu
 
-Dualboot, para aparecer no GRUB a entrada do Windows
-    
+In case you  have Dualboot
+
     nano /etc/default/grub
 
-Descomentar (#), está na última linha do arquivo
+Uncomment (#), usually is in the last line
 
 `GRUB_DISABLE_OS_PROBER=false`
 
-Atualizar o GRUB
+Updating GRUB
 
     grub-mkconfig -o /boot/grub/grub.cfg
+
+Reboot your system
+
+# For execution files .sh use: sudo sh "filename"
 
 ## 🚀 Instalação e execução
 

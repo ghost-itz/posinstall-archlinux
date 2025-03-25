@@ -1,7 +1,4 @@
 #AUR
 
-yay
-snapd
-heroic-games-launcher-bin
+yay - S snapd heroic-games-launcher-bin
 
-sudo systemctl enable --now snapd.socket
