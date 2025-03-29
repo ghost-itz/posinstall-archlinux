@@ -48,3 +48,17 @@ Reboot your system
 ## 🚀 Instalação e execução
 
     pacman -S
+
+#Windows fonts
+
+Copy to /usr/local/share/fonts/
+
+su
+
+    mkdir /usr/local/share/fonts
+    mkdir /usr/local/share/fonts/WindowsFonts
+    cp /windows/Windows/Fonts/* /usr/local/share/fonts/WindowsFonts/
+    chmod 644 /usr/local/share/fonts/WindowsFonts/*
+
+    fc-cache --force
+    fc-cache-32 --force
