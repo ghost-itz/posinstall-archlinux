@@ -2,4 +2,5 @@
 
 # Update how system of ArchLinux
 
-sudo pacman -Syu -y && yay -Syu -y && flatpak update -y
+sudo pacman -Syu -s && yay -Syu -s && flatpak update -y
+
