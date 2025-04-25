@@ -1,4 +1,13 @@
 #AUR
+(yay)
+ 
+    git clone  https://aur.archlinux.org/yay.git
 
-yay - S heroic-games-launcher-bin
+`cd yay/`
+
+`makepkg´
+
+`sudo pacman -U yay*´
+
+yay - S heroic-games-launcher-bin microsofte-edge-stable-bin
 
