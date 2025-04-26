@@ -5,10 +5,6 @@ set -e
 # Set the hostname
 echo "${archlinux}" > /etc/hostname
 
-# Create a new user and set the password
-useradd -m -G wheel -s /bin/bash ${ghost}
-echo "${ghost}:${mecanican}" | chpasswd
-
 pacman -S grub-efi-x86 efibootmgr dosfstools mtools wireless_tools \
           noto-fonts noto-fonts-emoji noto-fonts-cjk pipewire-pulse \
           ntfs-3g os-prober ntp gnome-shell gnome-terminal gnome-control-center \
