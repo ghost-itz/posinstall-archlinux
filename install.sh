@@ -3,9 +3,9 @@
 set -e
 
 # Set the locale
-echo LANG=pt_BR.UTF-8 >> /etc/locale.gen
+echo "${pt_BR.UTF-8}" >> /etc/locale.gen
 locale-gen
-echo LANG=pt_BR.UTF-8 > /etc/locale.conf
+echo "LANG=${pt_BR.UTF-8}" > /etc/locale.conf
 export LANG=pt_BR.UTF-8
 
 # Set the hostname
