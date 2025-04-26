@@ -6,7 +6,7 @@ sudo pacman -S gnome-calendar \ #Calendário
                loupe \ #Visualizador de imagem
                gnome-text-editor \ #Editor de texto
                gnome-browser-connector \ #Plugin extensão gnome
-               gnome-disk-utility \
+               gnome-disk-utility \ #Montar e gravar disco
                gparted \
                baobab \
                gst-plugin-pipewire \
