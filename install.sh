@@ -2,12 +2,6 @@
 
 set -e
 
-pacstrap -i /mnt base base-devel linux-lts linux-firmware nano linux-lts-headers
-genfstab -U -p /mnt >> /mnt/etc/fstab
-
-arch-chroot /mnt
-arch-chroot /mnt /bin/bash <<EOF
-
 # Set the locale
 echo LANG=pt_BR.UTF-8 >> /etc/locale.gen
 locale-gen
