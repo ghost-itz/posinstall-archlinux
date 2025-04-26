@@ -4,7 +4,7 @@ echo LANG=pt_BR.UTF-8 > /etc/locale.conf
 export LANG=pt_BR.UTF-8
 
 mkdir /boot/efi
-mount /dev/sda1 /boot/efi
+mount /dev/vda1 /boot/efi
 
 pacman -S grub-efi-x86 efibootmgr dosfstools mtools wireless_tools \
           noto-fonts noto-fonts-emoji noto-fonts-cjk pipewire-pulse \
