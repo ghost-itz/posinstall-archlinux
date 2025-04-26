@@ -25,6 +25,10 @@ Uncomment (#), staying this way
 `[multilib]`
 `Include = /etc/pacman.d/mirrorlist`
 
+For Colored Terminal, Uncoment (#)
+
+`Color`
+
 Now, update whole system
 
     pacman -Syu
