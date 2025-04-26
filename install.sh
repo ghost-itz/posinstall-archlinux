@@ -5,7 +5,7 @@ set -e
 # Set the hostname
 echo "${archlinux}" > /etc/hostname
 
-pacman -S grub-efi-x86 efibootmgr dosfstools mtools wireless_tools \
+pacman -S grub-efi-x86_64 efibootmgr dosfstools mtools wireless_tools \
           noto-fonts noto-fonts-emoji noto-fonts-cjk pipewire-pulse \
           ntfs-3g os-prober ntp gnome-shell gnome-terminal gnome-control-center \
           gdm gnome-keyring chromium power-profiles-daemon nautilus\
