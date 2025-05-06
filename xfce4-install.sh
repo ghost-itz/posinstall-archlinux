@@ -7,9 +7,11 @@ echo "${archlinux}" > /etc/hostname
 
 pacman -S grub-efi-x86_64 efibootmgr dosfstools mtools wireless_tools \
           noto-fonts noto-fonts-emoji noto-fonts-cjk pipewire-pulse \
-          ntfs-3g os-prober ntp cinnamon cinnamon-translations \
-          lightdm lightdm-gtk-greeter gnome-keyring chromium \
-          xed xreader totem networkmanager apparmor
+          ntfs-3g os-prober ntp xfce4 xfce4-pulseaudio-plugin \
+          lightdm lightdm-slick-greeter gnome-keyring chromium \
+          networkmanager apparmor network-manager-applet xfce4-weather-plugin \
+          
+          
 
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ArchLinux
 
