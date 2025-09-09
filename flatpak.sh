@@ -6,7 +6,8 @@ flatpak install flathub io.github.mmarco94.tambourine -y && flatpak install flat
 flatpak install flathub com.simplenote.Simplenote -y && flatpak install flathub io.github.zaedus.spider -y &&
 flatpak install flathub com.github.unrud.VideoDownloader -y && flatpak install flathub com.bitwarden.desktop -y &&
 flatpak install flathub com.todoist.Todoist -y && flatpak install flathub org.mozilla.firefox -y && 
-flatpak install flathub com.rtosta.zapzap -y && flatpak install flathub me.iepure.Ticketbooth -y &&
-flatpak install flathub com.spotify.Client -y && flatpak install flathub org.jdownloader.JDownloader -y
+flatpak install flathub me.iepure.Ticketbooth -y &&
+flatpak install flathub com.spotify.Client -y && flatpak install flathub org.jdownloader.JDownloader -y &&
+flatpak install flathub com.github.johnfactotum.Foliate -y
 
 
