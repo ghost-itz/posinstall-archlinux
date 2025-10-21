@@ -47,7 +47,7 @@ Updating GRUB
 
 Reboot your system
 
-# For execution files .sh use: sudo sh "filename"
+# For execution files .sh use: sh "filename"
 
 ## 🚀 Instalação e execução
 
@@ -66,3 +66,15 @@ su
 
     fc-cache --force
     fc-cache-32 --force
+
+# Mount Partition With Boot
+List the partitions, and prefix the values in the UUID
+
+    lsblk -f
+
+After generate
+
+    mkinticpio -p
+
+
+
