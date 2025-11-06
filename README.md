@@ -72,9 +72,16 @@ List the partitions, and prefix the values in the UUID
 
     lsblk -f
 
+    nano /etc/fstab
+
 After generate
 
-    mkinticpio -p
+    mkinitcpio -p (Linux-kernal)
+
+NTFS Correct mount erro
+
+    sudo ntfsfix -d /dev/sdXY
+
 
 
 
