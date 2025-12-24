@@ -1,13 +1,5 @@
 #AUR
 (yay)
  
-git clone  https://aur.archlinux.org/yay.git
-
-`cd yay/`
-
-`makepkg´
-
-`sudo pacman -U yay*´
-
-yay - S heroic-games-launcher-bin microsofte-edge-stable-bin
+yay - S heroic-games-launcher-bin microsofte-edge-stable-bin  nvidia-580xx-dkms nvidia-580xx-utils lib32-nvidia-580xx-util
 
