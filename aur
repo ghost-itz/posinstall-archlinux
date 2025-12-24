@@ -1,6 +1,3 @@
-#!/bin/bash
-
-
 (yay)
  
 git clone  https://aur.archlinux.org/yay.git
