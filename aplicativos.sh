@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S gnome-calendar totem evince loupe gnome-text-editor \
+sudo pacman -S gnome-calendar showtime papers loupe gnome-text-editor simple-scan \
                gnome-browser-connector gnome-disk-utility gparted \
                baobab gst-plugin-pipewire \
                gnome-system-monitor \
