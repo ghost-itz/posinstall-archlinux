@@ -10,7 +10,7 @@ sudo pacman -S gnome-calendar showtime papers loupe gnome-text-editor simple-sca
                audacious \
                alacarte \
                gst-libav gst-plugins-ugly gst-plugins-good gst-plugins-bad \
-               vlc vlc-plugins-all \
+               vlc vlc-plugins-all ffmpegthumbnailer \
                gnome-tweaks \
                qbittorrent \
                gnome-shell-extension-appindicator
