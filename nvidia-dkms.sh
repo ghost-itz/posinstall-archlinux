@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -S intel-ucode nvidia-settings nvtop
+sudo pacman -S intel-ucode nvtop
